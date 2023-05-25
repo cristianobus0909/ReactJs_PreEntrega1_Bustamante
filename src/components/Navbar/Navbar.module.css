@@ -1,0 +1,13 @@
+.titulo{
+    color: blue;
+};
+
+.navbar{
+    display: flex
+
+};
+
+.cartwidget{
+    width: 20;
+    height: auto;
+}

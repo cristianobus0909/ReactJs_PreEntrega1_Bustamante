@@ -1,9 +1,9 @@
 import cart from './asset/cart.png'
-
+import styles from './Navbar.module.css'
 const CartWidget = ()=>{
     return(
         <div>
-            <img src={cart} alt="cart-widget" />
+            <img className={styles.CartWidget} src={cart} alt="cart-widget" />
             0
         </div>
     )

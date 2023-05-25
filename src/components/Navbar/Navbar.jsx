@@ -1,10 +1,10 @@
-import './Navbar.css'
+import styles from './Navbar.module.css'
 import CartWidget from '../CartWidget/CartWidget'
 
 const Navbar = ()=>{
     return (
-        <header>
-            <h1>Lara</h1>
+        <header className={styles.navbar}>
+            <h1 className= {styles.titulo}>Lara</h1>
             <section>
                 <button>Productos</button>
                 <button>Promociones</button>
