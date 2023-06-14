@@ -1,13 +1,35 @@
-.titulo{
-    color: blue;
-};
+/* Navbar.module.css */
 
-.navbar{
-    display: flex
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
 
-};
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+}
 
-.cartwidget{
-    width: 20;
-    height: auto;
+.categories {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background-color: #eaeaea;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d6d6d6;
+}
+
+button:focus {
+    outline: none;
 }

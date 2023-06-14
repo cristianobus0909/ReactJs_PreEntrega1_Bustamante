@@ -1,0 +1,30 @@
+/* ItemList.module.css */
+
+.listaGroup {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Estilos para el componente Item dentro de ItemList */
+.item {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.item h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.item p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}

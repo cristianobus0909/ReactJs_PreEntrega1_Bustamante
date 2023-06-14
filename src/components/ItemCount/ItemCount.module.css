@@ -1,0 +1,31 @@
+/* ItemCount.module.css */
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #eaeaea;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.button:hover {
+    background-color: #d6d6d6;
+}
+
+.number {
+    font-size: 16px;
+    margin: 0 10px;
+}
